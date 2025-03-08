@@ -1,0 +1,13 @@
+rabbitmq:
+  host: "localhost"
+  port: 5672
+  user: "guest"
+  pwd: "guest"
+  queues:
+    - "queue1"
+    - "queue2"
+
+metrics:
+  host: "127.0.0.1"  # or use "0.0.0.0" to be publicly allowed
+  port: 8080
+  interval: 5  # Update interval in seconds
